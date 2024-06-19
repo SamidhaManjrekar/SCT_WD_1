@@ -1,0 +1,143 @@
+.join__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.join__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.join__title {
+  font-size: var(--size-2xl);
+  margin-bottom: 1rem;
+}
+
+.join__description {
+  font-size: var(--size-s);
+  margin-bottom: 2rem;
+  max-width: 60ch;
+}
+
+.join__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join__input {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  width: 300px;
+  font-size: var(--size-s);
+  color: var(--clr-text-light);
+}
+
+.join__btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-size: var(--size-s);
+}
+
+.join__btn i {
+  font-size: large;
+  transition: transform 0.4s;
+}
+
+.join__btn:hover i {
+  transform: translateX(0.2rem);
+}
+
+.join__image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.join__img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.join__shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 0%, 0) 50%,
+    hsl(0, 0%, 0%) 120%
+  );
+}
+
+@media (min-width: 475px) {
+    .join__title {
+        font-size: var(--size-3xl);
+      }
+    
+      .join__description {
+        font-size: var(--size-s);
+      }
+    
+      .join__input {
+        font-size: var(--size-s);
+      }
+      
+      .join__btn {
+        font-size: var(--size-s);
+      }
+}
+@media (min-width: 640px) {
+}
+@media (min-width: 768px) {
+    .join__title {
+        font-size: var(--size-4xl);
+        margin-bottom: 1.5rem;
+      }
+    
+      .join__description {
+        font-size: var(--size-base);
+      }
+    
+      .join__input {
+        font-size: var(--size-base);
+      }
+      
+      .join__btn {
+        font-size: var(--size-base);
+      }
+
+      .join__container {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+}
+@media (min-width: 1280px) {
+    .join__title {
+        font-size: var(--size-5xl);
+        margin-bottom: 2rem;
+      }
+    
+      .join__description {
+        font-size: var(--size-lg);
+      }
+    
+      .join__input {
+        font-size: var(--size-lg);
+      }
+      
+      .join__btn {
+        font-size: var(--size-lg);
+      }
+}
+@media (min-width: 1536px) {
+}

@@ -1,0 +1,17 @@
+.scrollup{
+    position: fixed;
+    right: 1rem;
+    bottom: 2rem;
+    padding: 6px;
+    display: inline-flex;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    color: var(--clr-title);
+    border-radius: 100%;
+    backdrop-filter: blur(24px);
+    z-index: var(--z-tooltip);
+    transition: botton 0.4s, transform 0.4s;
+}
+
+.scrollup:hover{
+    transform: translateY(-0.25rem);
+}

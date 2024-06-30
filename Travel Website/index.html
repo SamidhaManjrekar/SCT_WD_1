@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.fontshare.com/v2/css?f[]=poppins@400,500&f[]=montserrat@500,600&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="stylesheet" href="./Styles/components/header.css">
+    <link rel="stylesheet" href="./Styles/components/home.css">
+    <link rel="stylesheet" href="./Styles/components/mobile_nav.css">
+    <link rel="stylesheet" href="./Styles/components/about.css">
+    <link rel="stylesheet" href="./Styles/components/popular.css">
+    <link rel="stylesheet" href="./Styles/components/explore.css">
+    <link rel="stylesheet" href="./Styles/components/join.css">
+    <link rel="stylesheet" href="./Styles/components/footer.css">
+    <link rel="stylesheet" href="./Styles/components/scrollup.css">
+    <title>Globe Trekker</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav ">
+            <a href="#" class="nav__logo">Globe Trekker</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a class="nav__link active-link" href="#home">Home</a></li>
+                    <li><a class="nav__link active-link" href="#about">About</a></li>
+                    <li><a class="nav__link active-link" href="#popular">Popular</a></li>
+                    <li><a class="nav__link active-link" href="#explore">Explore</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close-desktop"><i class="ri-close-line"></i></div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle"><i class="ri-menu-fill"></i></div>
+        </nav>
+    </header>
+
+    <!--==================== MOBILE NAV ====================-->
+    <div class="mobile__nav" id="mobile__nav">
+        <nav>
+            <ul class="mobile__nav-list">
+                <li><a class="mobile__nav-link active-link" href="#home">Home</a></li>
+                <li><a class="mobile__nav-link active-link" href="#about">About</a></li>
+                <li><a class="mobile__nav-link active-link" href="#popular">Popular</a></li>
+                <li><a class="mobile__nav-link active-link" href="#explore">Explore</a></li>
+                <li>
+                    <div class="mobile__nav-close" id="nav-close-mobile"><i class="ri-close-line"></i></div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <img src="./images/home.jpg" alt="home image" class="home__bg">
+            <div class="home__shadow"></div>
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h3 class="home__subtitle">Welcome to Globe Trekker</h3>
+                    <h1 class="home__title">Explore the world</h1>
+                    <p class="home__discription">Globe Trekker is your ultimate travel companion, offering expert
+                        guides, tips, and personalized itineraries to make your journey unforgettable. Whether you seek
+                        adventure, relaxation, or cultural immersion, we have the perfect destinations for you.</p>
+                    <a href="#" class="home__btn button">Discover Destinations <i class="ri-arrow-right-line"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+
+        <section id="about" class="about section">
+            <div class="about__content container grid">
+                <div class="about__data">
+                    <h2 class="about__title">Our Journey</h2>
+                    <p class="about__discription">
+                        Welcome to Globe Trekker, where adventure meets discovery. Founded with a passion for
+                        exploration,
+                        Globe Trekker is your go-to resource for uncovering the world's hidden gems and iconic
+                        landmarks.
+                        Our mission is to inspire and empower travelers of all kinds with expert insights, detailed
+                        guides,
+                        and seamless booking tools, ensuring every journey is unforgettable. Join us as we navigate
+                        cultures, embrace diversity, and celebrate the thrill of travel.
+                    </p>
+                    <a href="#" class="about__btn button">
+                        Learn More
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+                <div class="about__image">
+                    <img src="./images/about.jpg" alt="about image" class="about__img">
+                    <div class="about__shadow"></div>
+                </div>
+            </div>
+        </section>
+        <!--==================== POPULAR ====================-->
+        <section class="popular container section" id="popular">
+            <h2 class="popular__title">
+                Traveler Favorites
+            </h2>
+            <div class="popular__container container grid">
+                <article id="popular__card" class="popular__card">
+                    <div id="popular__info" class="popular__info">
+                        <div class="popular__location">
+                            <i class="ri-map-pin-line"></i>
+                            <span class="popular__location-name">U.A.E</span>
+                        </div>
+                        <p class="popular__description">
+                            The U.A.E, a federation of seven emirates, is known for its modern cities, luxury shopping,
+                            and vibrant nightlife. Dubai, famous for its towering skyscrapers like the Burj Khalifa, is
+                            a global hub blending traditional Arabic culture with contemporary living.
+                        </p>
+                        <a href="#" class="popular__btn button">Read More <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="popular__image">
+                        <img src="./images/dubai.jpg" alt="Dubai" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__subtitle">Burj Khalifa</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span class="popular__location-name">U.A.E</span>
+                    </div>
+                </article>
+                <article id="popular__card" class="popular__card">
+                    <div id="popular__info" class="popular__info">
+                        <div class="popular__location">
+                            <i class="ri-map-pin-line"></i>
+                            <span class="popular__location-name">France</span>
+                        </div>
+                        <p class="popular__description">
+                            France, in Western Europe, is renowned for its rich history, art, fashion, and cuisine.
+                            Paris, its capital, features iconic landmarks such as the Eiffel Tower and Louvre Museum.
+                            The country offers diverse landscapes, from the Mediterranean coast to the Alps and charming
+                            villages.
+                        </p>
+                        <a href="#" class="popular__btn button">Read More <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="popular__image">
+                        <img src="./images/paris.jpg" alt="Paris" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__subtitle">Eiffel Tower</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span class="popular__location-name">France</span>
+                    </div>
+                </article>
+                <article id="popular__card" class="popular__card">
+                    <div id="popular__info" class="popular__info">
+                        <div class="popular__location">
+                            <i class="ri-map-pin-line"></i>
+                            <span class="popular__location-name">Japan</span>
+                        </div>
+                        <p class="popular__description">
+                            Japan, an island nation in East Asia, combines ancient traditions with modern technology.
+                            Known for its cherry blossoms, sushi, and anime, Japan offers serene temples, bustling
+                            cities like Tokyo, and unique cultural experiences.
+                        </p>
+                        <a href="#" class="popular__btn button">Read More <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="popular__image">
+                        <img src="./images/japan.jpg" alt="Japan" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__subtitle">Kenshi Kingami</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span class="popular__location-name">Japan</span>
+                    </div>
+                </article>
+                <article id="popular__card" class="popular__card">
+                    <div id="popular__info" class="popular__info">
+                        <div class="popular__location">
+                            <i class="ri-map-pin-line"></i>
+                            <span class="popular__location-name">Australia</span>
+                        </div>
+                        <p class="popular__description">
+                            Australia, the world's largest island, is famed for its stunning landscapes, diverse
+                            wildlife, and laid-back lifestyle. Sydney, with its iconic Opera House and Harbour Bridge,
+                            showcases the country's blend of natural beauty and vibrant urban life.
+                        </p>
+                        <a href="#" class="popular__btn button">Read More <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="popular__image">
+                        <img src="./images/sydney.jpg" alt="Japan" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__subtitle">Sydney Opera House</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span class="popular__location-name">Australia</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== EXPLORE ====================-->
+        <section class="explore section" id="explore">
+            <h2 class="explore__title">Explore More</h2>
+            <div class="explore__container container grid">
+                <article class="explore__card">
+                    <div class="popular__image">
+                        <img src="./images/explore1.jpg" alt="Explore Destination 1" class="explore__img">
+                        <div class="explore__shadow"></div>
+                    </div>
+                    <h3 class="explore__subtitle">Cultural Immersions</h3>
+                    <p class="explore__description">Dive deep into local cultures and traditions around the world.</p>
+                    <a href="#" class="explore__btn button">Read More <i class="ri-arrow-right-line"></i></a>
+                </article>
+                <article class="explore__card">
+                    <div class="popular__image">
+                        <img src="./images/explore2.jpg" alt="Explore Destination 1" class="explore__img">
+                        <div class="explore__shadow"></div>
+                    </div>
+                    <h3 class="explore__subtitle">Adventure Travel</h3>
+                    <p class="explore__description">Experience thrilling adventures from hiking to water sports.</p>
+                    <a href="#" class="explore__btn button">Read More <i class="ri-arrow-right-line"></i></a>
+                </article>
+                <article class="explore__card">
+                    <div class="popular__image">
+                        <img src="./images/explore3.jpg" alt="Explore Destination 1" class="explore__img">
+                        <div class="explore__shadow"></div>
+                    </div>
+                    <h3 class="explore__subtitle">Family Trips</h3>
+                    <p class="explore__description">Find the best destinations and activities for family travel.</p>
+                    <a href="#" class="explore__btn button">Read More <i class="ri-arrow-right-line"></i></a>
+                </article>
+                <article class="explore__card">
+                    <div class="popular__image">
+                        <img src="./images/explore4.jpg" alt="Explore Destination 1" class="explore__img">
+                        <div class="explore__shadow"></div>
+                    </div>
+                    <h3 class="explore__subtitle">Luxury Escapes</h3>
+                    <p class="explore__description">Indulge in luxury getaways at the world's most opulent resorts.</p>
+                    <a href="#" class="explore__btn button">Read More <i class="ri-arrow-right-line"></i></a>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== JOIN ====================-->
+        <section class="join section">
+            <div class="join__container container grid">
+                <div class="join__data">
+                    <h2 class="join__title">Join Our Community</h2>
+                    <p class="join__description">Sign up to receive the latest travel tips, guides, and exclusive
+                        offers from Globe Trekker. Stay inspired and never miss out on your next adventure!</p>
+                    <form class="join__form">
+                        <input type="email" placeholder="Enter your email" class="join__input">
+                        <button type="submit" class="join__btn button">Subscribe <i
+                                class="ri-arrow-right-line"></i></button>
+                    </form>
+                </div>
+                <div class="join__image">
+                    <img src="./images/join.jpg" alt="Join our community" class="join__img">
+                    <div class="join__shadow"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Globe Trekker</a>
+                    <p class="footer__description">Explore the world with us. Your journey begins here.</p>
+                    <ul class="footer__social">
+                        <li><a href="#" class="footer__social-link"><i class="ri-facebook-circle-fill"></i></a></li>
+                        <li><a href="#" class="footer__social-link"><i class="ri-instagram-fill"></i></a></li>
+                        <li><a href="#" class="footer__social-link"><i class="ri-twitter-fill"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <!--==================== SCROLL UP ====================-->
+        <a href="#" id="scroll-up" class="scrollup">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+        <!--=============== MAIN JS ===============-->
+        <script src="./src/main.js"></script>
+</body>
+
+</html>

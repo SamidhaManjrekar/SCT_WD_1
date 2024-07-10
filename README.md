@@ -10,5 +10,6 @@ Globe Trekker is a travel website that inspires and guides travelers with expert
 - Community: Join our community to share experiences and get exclusive travel offers.
 
 # Technologies Used
-HTML5
-CSS3
+- HTML5
+- CSS3
+- JavaScript
